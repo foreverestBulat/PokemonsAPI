@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.page-pokemon {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon {
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: 50px;
+}
+
+.child {
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.name-id-types {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-id-types :last-child {
+    align-items: center;    
+    display: flex;
+    justify-content: center;
+}
+
+.name-id {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon .name {
+    color: blue;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+}
+
+.types div {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.id {
+    color: gray;
+    font-size: 25px;
+}
+
+.stats-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    margin-right: 20px;
+}
+
+.breeding h1 {
+    margin-top: 0;
+}
+
+.breeding .values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.value {
+    width: 140px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 194, 194);
+}
+
+.container-move {
+    padding: 5px;
+}
+
+.container-move .move {
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list-moves {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-abilities {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ability {
+    width: 240px;
+    height: 130px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.back {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: blue;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.pagination button {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    height: 70px;
+}
+
+.pagination .prev {
+    border-right: 1px solid;
+}
+
+.pagination button:focus {
+    background-color: gray;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.no-pokemons {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.no-pokemons h1 {
+    font-size: 50px;
+}
+
+.no-pokemons .message {
+    width: 300px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.card {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.card .top {
+    display: flex;
+    direction: column;
+    justify-content: center;
+}
+
+.card .top .name {
+    color: blue;
+    margin-right: 30px;
+}
+
+.card img {
+    width: 120px;
+}
+
+.card .down {
+    display: flex;
+    flex-direction: row;
+}
+
+.card .down div {
+    /* background-color: rgb(220, 220, 220); */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 15px;
+}
